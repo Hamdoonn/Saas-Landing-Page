@@ -308,3 +308,132 @@ hr {
   justify-content: center;
   align-items: center;
 }
+
+.pricing-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+  width: 100%;
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  border: 1px solid #e2e2e2;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.enterprise-card{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  background-color: #8b5cf6;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.label-entrp{
+   text-align: center;
+  padding: 5px 10px;
+  background-color: #ffffff21;
+  border: 1px solid #ffffff;
+  width: 30%;
+  border-radius: 100px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.card-h2-entrp{
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+.card-para-entrp{
+   font-size: 14px;
+  color: #545454;
+  color: rgba(255, 255, 255, 0.644);
+}
+.feature-para-entrp{
+  color: white;
+}
+.feature-btn-entrp{
+   width: 100%;
+  padding: 8px 0px;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+  color: #8b5cf6;
+  font-weight: 500;
+}
+
+.card-header{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #22222228;
+  padding-bottom: 30px;
+}
+
+.label{
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #8a5cf621;
+  border: 1px solid #8b5cf6;
+  width: 30%;
+  border-radius: 100px;
+  font-size: 12px;
+  color: #8b5cf6;
+}
+
+.card-h2{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.card-para{
+  font-size: 14px;
+  color: #545454;
+}
+
+.card-features{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+.features{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fa-square-check{
+  color: #2d2d2dc4;
+}
+
+.feature-para{
+  color: #2d2d2d;
+}
+
+.btn-div{
+  width: 100%;
+}
+
+.feature-btn{
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 6px;
+  border: none;
+  background-color: #8b5cf6;
+  color: white;
+  font-weight: 500;
+}
+
+.price-span{
+  color: #c9c9c9;
+  font-size: 16px;
+}
