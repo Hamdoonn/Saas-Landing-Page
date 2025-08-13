@@ -368,6 +368,8 @@ hr {
   font-weight: 500;
 }
 
+
+
 .card-header{
   display: flex;
   flex-direction: column;
@@ -437,3 +439,63 @@ hr {
   color: #c9c9c9;
   font-size: 16px;
 }
+
+/* analytics css */
+
+.analytics-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.analytics-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.analytics-h2{
+  font-size: 48px;
+  color: #2d2d2d;
+  max-width: 40%;
+  line-height: 65px;
+}
+
+.analytics-para{
+  color: #545454;
+  width: 35%;
+}
+
+.analytics-card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.analytics-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    flex-basis: 33.333%;
+    box-shadow: 10px 10px 12px #2d2d2d10;
+}
+
+.analytics-card-h2{
+  font-size: 55px;
+  color: #2d2d2d;
+}
+
+.analytics-card-para{
+  line-height: 28px;
+  color: #545454;
+}
+
