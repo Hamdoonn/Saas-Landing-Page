@@ -543,18 +543,105 @@ hr {
 
 /* cta css */
 
-.cta-container{
+.footer-container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid ;
-  height: 500px;
+
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.footer-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 70px;
 }
 
 .footer-links{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 80px;
+
+ 
+}
+.link{
+  list-style-type: none;
+  font-weight: 600;
+  color: #2d2d2d;
 }
 
+.left-div,.right-div{
+  width: 100%;
+}
+
+.footer-para{
+  max-width: 60%;
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+.content-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  width: 100%;
+}
+.left-content{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 2px solid;
+  width: 100%;
+}
+
+.footer-logo{
+  font-size: 32px;
+}
+
+.right-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-end;
+  width: 100%;
+}
+
+.form-footer{
+  display: flex;
+  gap: 14px;
+}
+
+.email-footer{
+  padding: 6px 0px;
+  padding-left: 8px;
+  padding-right: 36px;
+  border-color: #5454542f;
+  border-radius: 5px;
+}
+
+.form-btn{
+  padding: 6px 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8b5cf6;
+  color: white;
+}
+
+.policy-div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+.policy-1,.policy-2,.policy-3{
+  font-size: 14px;
+  font-weight: 500;
+  color: #545454;
+}
