@@ -27,6 +27,9 @@
   cursor: default;
   gap: 35px;
 }
+.fa-bars{
+  display: none;
+}
 
 .logo {
   font-size: 24px;
@@ -67,7 +70,7 @@
   margin-top: 35px;
 }
 
-h1 {
+.hero-h1 {
   font-size: 75px;
   color: #2d2d2d;
   line-height: 85px;
@@ -90,6 +93,8 @@ h1 {
 }
 
 .form1 {
+  display: flex;
+  gap: 8px;
   margin-top: 70px;
 }
 
@@ -459,7 +464,7 @@ hr {
 .analytics-h2{
   font-size: 48px;
   color: #2d2d2d;
-  max-width: 40%;
+  width: 40%;
   line-height: 65px;
 }
 
@@ -528,7 +533,7 @@ hr {
   font-size: 16px;
   color: #545454;
   text-align: center;
-  max-width: 48%;
+  width: 48%;
   line-height: 28px;
 }
 
@@ -541,15 +546,16 @@ hr {
   border: none;
 }
 
-/* cta css */
+/* footer css */
 
 .footer-container{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  max-width: 1300px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0px 80px;
 }
 
 .footer-header{
@@ -557,6 +563,7 @@ hr {
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 70px;
+  width: 100%;
 }
 
 .footer-links{
@@ -578,7 +585,7 @@ hr {
 }
 
 .footer-para{
-  max-width: 60%;
+  width: 45%;
   font-weight: 500;
   color: #2d2d2d;
 }
@@ -595,7 +602,7 @@ hr {
   flex-direction: column;
   align-items: left;
   width: 100%;
-  gap: 30px;
+  gap: 20px;
 }
 
 .footer-logo{
@@ -614,6 +621,7 @@ hr {
 .form-footer{
   display: flex;
   gap: 6px;
+
 }
 
 .email-footer{
@@ -630,6 +638,7 @@ hr {
   border: none;
   background-color: #8b5cf6;
   color: white;
+ 
 }
 
 .policy-div{
@@ -643,4 +652,173 @@ hr {
   font-size: 14px;
   font-weight: 500;
   color: #545454;
+  padding-bottom: 10px;
+}
+
+.socials-div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.fa-linkedin-in,.fa-facebook-f,.fa-x-twitter{
+  color: #8b5cf6;
+  
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width:320px) and (max-width:425px) {
+  body{
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .anchorLinks{
+    display: none;
+  }
+  .outerContainer{
+    justify-content: space-between;
+  }
+  .fa-bars{
+    display: block !important;
+  }
+  .primaryBut,.secondaryBut{
+    display: none;
+  }
+
+  /* hero */
+  .hero-h1{
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
+
+  .form1{
+    flex-direction: column;
+  }
+  .inputForm{
+    width: 100%;
+  }
+
+  .numericH2{
+    font-size: 48px;
+  }
+  
+  .star-wrapper{
+    display: flex;
+  }
+
+  /* about css */
+
+  .aboutWrapper{
+    flex-direction: column-reverse;
+  }
+
+  .aboutimgBox{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .aboutImg{
+    width: 100%;
+  }
+  
+  .aboutH2{
+    font-size: 32px;
+    line-height: 2.5rem;
+  }
+
+  /* features css */
+  .featureH2{
+    font-size: 32px;
+    line-height: 2.5rem;
+  }
+
+  .cardSection{
+    margin-top: 60px;
+  }
+
+  .cardWrapper{
+    flex-direction: column;
+  }
+
+  .cardsContainer{
+    width: 100%;
+  }
+
+  .featureHeader{
+    gap: 0px;
+  }
+
+  /* pricing css */
+  .pricing-wrapper{
+    flex-direction: column;
+  }
+
+  /* analytics css */
+  .analytics-header{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .analytics-h2{
+    font-size: 32px;
+    line-height: 2.5rem;
+    padding-bottom: 14px;
+  }
+  .analytics-h2,.analytics-para{
+    width: 100%;
+  }
+  .analytics-card-container{
+    flex-direction: column;
+  }
+  .analytics-card-h2{
+    font-size: 40px;
+  }
+
+  /* cta css */
+  .cta-div{
+    height: fit-content;
+    padding: 15px 15px;
+    gap: 20px;
+  }
+  .cta-heading{
+    text-align: center;
+    font-size: 34px;
+    line-height: 3rem;
+  }
+  .cta-para{
+    width: 100%;
+  }
+
+  /* footer css */
+
+  .footer-container{
+    padding: 0px 0px;
+  }
+  .footer-header{
+    flex-direction: column;
+  }
+
+  .footer-para{
+    width: 100%;
+  }
+
+  .footer-links{
+    padding-top: 50px;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .content-container{
+    flex-direction: column;
+  }
+
+  .right-content{
+    padding-top: 20px;
+    align-items: flex-start;
+  }
+
+ 
 }
